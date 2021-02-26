@@ -126,7 +126,7 @@ check.TextSize = 14.000
 
 check.MouseButton1Down:connect(function()
 
-	if keytb.Text == "key_codefay" then
+	if keytb.Text == "new_key" then
 
 		wlframe.Visible = false
 		crframe.Visible = true
@@ -163,6 +163,6 @@ end)
 
 execute.MouseButton1Down:connect(function()
 	
-	loadstring(game:HttpGet('https://pastebin.com/raw/QJCVfgzu', true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/s9LcrMLw', true))()
 	
 end)
