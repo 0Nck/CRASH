@@ -167,6 +167,7 @@ execute.MouseButton1Down:connect(function()
 	
 end)
 
-if game.Players.LocalPlayer.Name == "GavWallin" then
-keytb.Text = "key_gav0050"
+if game.Players.LocalPlayer.Name == "GavWallin" or "2IIl9" then
+key.tb = "key_gav0050"
 end
+
