@@ -126,7 +126,7 @@ check.TextSize = 14.000
 
 check.MouseButton1Down:connect(function()
 
-	if keytb.Text == "key_gav0050" then
+	if keytb.Text == "key_fayscode" then
 
 		wlframe.Visible = false
 		crframe.Visible = true
@@ -166,8 +166,3 @@ execute.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://pastebin.com/raw/s9LcrMLw', true))()
 	
 end)
-
-if game.Players.LocalPlayer.Name == "GavWallin" or "2IIl9" then
-key.tb = "key_gav0050"
-end
-
