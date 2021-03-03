@@ -166,6 +166,6 @@ execute.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://pastebin.com/raw/s9LcrMLw', true))()
 	
 end)
-if game.Players.LocalPlayer.Name == "2IIl9" then
+if game.Players.LocalPlayer.Name == "GavWallin" then
 keytb.Text = "key_fayscode"
 end
